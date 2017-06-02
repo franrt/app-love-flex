@@ -86,3 +86,38 @@ a:hover {
     text-transform: uppercase;
     font-size: 14px;
 }
+
+
+/* Services */
+
+#services {
+    background-color: #F17C72;
+    text-align: center;
+    color: #fff;
+    padding: 70px;
+}
+
+
+/* OJO: flex-wrap: wrap para que los elementos NO se vean forzados a desplegarse en 1 sola linea*/
+
+#services.flex-container {
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box-services {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+
+/* footer */
+
+.footer {
+    height: 40px;
+    background-color: #373b47;
+    font-size: 0.5em;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+}
